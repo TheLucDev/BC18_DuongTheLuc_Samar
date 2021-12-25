@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samar</title>
-    <link
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <title>Samar</title>
+  <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap"
       rel="stylesheet"
     />
@@ -24,11 +26,14 @@
 
   <link rel='stylesheet' href='https://samar.dexignzone.com/xhtml/vendor/swiper/css/swiper.min.css'>
 
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <div id="wrapped-website">
-      <div id="header">
+      <div id="home">
         <div class="header__container center">
           <div class="header__logo">
             <img src="./img/logo-2.png" alt="" />
@@ -83,7 +88,6 @@
           </div>
         </div>
       </div>
-
       <div id="services">
         <div class="services__best">
           <div class="services__best-heading">
@@ -123,7 +127,6 @@
             </div>
           </div>
         </div>
-
         <div class="services__about">
           <div class="about__container">
             <div class="about__container-left">
@@ -164,7 +167,6 @@
             </div>
           </div>
         </div>
-
         <div class="services__count">
           <div class="services__count-wrapped center">
             <div class="count__item">
@@ -240,7 +242,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <div id="post">
         <div class="features">
@@ -250,7 +251,6 @@
               </p>
               <h2 class="h__header" >Behind The Story <br> Of Samar Agency
               </h2>
-
                 <div class="features__item">
                     <i class="fab fa-linux"></i>
                     <div class="features__item-doc">
@@ -280,7 +280,6 @@
                       </p>
                     </div>
                 </div>
-
             </div>
             <div class="features__right">
               <img src="./img/pic3.png" alt="">
@@ -288,8 +287,7 @@
           </div>
         </div>
       </div>
-
-      <div class="portfolio">
+      <div id="portfolio">
         <div class="portfolio__content">
           <div class="portfolio__header">
             <p class="p__header">Portfolio</p>
@@ -298,16 +296,6 @@
           </div>
           <div class="portfolio__item center">
             <div class="portfolio__item-top">
-
-              <!-- <div class="portfolio__overlay">
-                <div class="overlay-icon">
-                  <i class="fa fa-plus"></i>
-                </div>
-                <div class="overlay-bottom">
-                  <h4>Software landing</h4>
-                  <p>By John Due</p>
-                </div>
-              </div> -->
               <div class="pic1">
                 <img src="./img/pic1_2.jpg" alt="">
                 <div class="pic1-overlay">
@@ -322,7 +310,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="pic2">
                 <img src="./img/pic2_1.jpg" alt="">
                 <div class="pic1-overlay">
@@ -337,9 +324,7 @@
                   </div>
                 </div>
               </div>
-
             </div>
-
             <div class="portfolio__item-bottom">
               <div class="portfolio__itemwrap-345">
                   <div class="portfolio__itemwrap-34">
@@ -407,8 +392,7 @@
           </div>
         </div>
       </div>
-
-      <div class="plan">
+      <div id="plan">
         <div class="plan__container">
           <div class="plan__header">
             <p class="p__header">Choose Your Plan</p>
@@ -516,7 +500,6 @@
                 <div class="item-content__header">
                   <h3>Premium Plan</h3>
                     <img src="./img/pic4_1.jpg" alt="">
-
                   <div class="plan__item-price">
                     <span>$199</span>
                     <span>/Month</span>
@@ -559,8 +542,7 @@
           </div>
         </div>
       </div>
-
-      <div class="testimonial">
+      <div id="testimonial">
         <div class="testimonial__header">
           <p class="p__header">Testimonial</p>
           <h2 class="h__header" style="font-size: 60px;" >What Our Clients Say's</h2>
@@ -574,7 +556,6 @@
                   <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic1.jpg" alt="">
                   <div class="shape-bx"></div>
                 </div>
-
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-pic">
@@ -588,48 +569,303 @@
                   <div class="shape-bx"></div>
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="testimonial-pic">
+                  <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg" alt="">
+                  <div class="shape-bx"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-pic">
+                  <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg" alt="">
+                  <div class="shape-bx"></div>
+                </div>
+              </div>
             </div>
-
           </div>
-
           <div class="swiper-container testimonial-comment">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-text">
-                  <strong class="testimonial-name">Cak Dikin 1</strong>
-                  <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                  <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                  <strong class="testimonial-name" style="font-size: 24px;" >Cak Dikin 1</strong> <br>
+                  <span class="testimonial-position text-primary m-b20" style="color: #f55f8d;" >CEO &amp; Founder </span>
+                  <p style="margin: 20px;" >Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
                 </div>
-
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-text">
-                  <strong class="testimonial-name">Cak Dikin 2</strong>
-                  <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                  <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                  <strong class="testimonial-name" style="font-size: 24px;" >Cak Dikin 2</strong> <br>
+                  <span class="testimonial-position text-primary m-b20" style="color: #f55f8d;" >CEO &amp; Founder </span>
+                  <p style="margin: 20px;" >Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
                 </div>
-
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-text">
-                  <strong class="testimonial-name">Cak Dikin 3</strong>
-                  <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                  <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                  <strong class="testimonial-name" style="font-size: 24px;" >Cak Dikin 3</strong> <br>
+                  <span class="testimonial-position text-primary m-b20" style="color: #f55f8d;" >CEO &amp; Founder </span>
+                  <p style="margin: 20px;" >Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
                 </div>
-
               </div>
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-
-
-
       </div>
-
-
+      <div id="blog-wrap">
+        <div class="blog center">
+          <div class="blog__header">
+            <p class="p__header">Our Blog</p>
+            <h2 class="h__header" style="font-size: 60px;" >Latest News & Blog
+            </h2>
+          </div>
+          <div class="blog__carousel">
+            <div class="blog__item">
+              <div class="item__container">
+                <div class="item__img">
+                  <img src="./img/pic1_1.jpg" alt="">
+                  <div class="item__img-calendar">
+                    <p>25 MARCH 2021</p>
+                  </div>
+                </div>
+                <div class="item__content">
+                  <h3>Lorem ipsum dolor sit.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, incidunt? Architecto, incidunt?</p>
+                  <hr>
+                  <div class="item__content-footer">
+                      <i class="fa fa-user-circle color__pink"></i>
+                      <p>BY <p class="color__pink" >JOHNE DOE</p></p>
+                      <i class="fa fa-comment-alt color__pink "></i>
+                      <p>COMMENT 15</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="item__container">
+                <div class="item__img">
+                  <img src="./img/pic2.jpg" alt="">
+                  <div class="item__img-calendar">
+                    <p>25 MARCH 2021</p>
+                  </div>
+                </div>
+                <div class="item__content">
+                  <h3>Lorem ipsum dolor sit.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, incidunt? Architecto, incidunt?</p>
+                  <hr>
+                  <div class="item__content-footer">
+                      <i class="fa fa-user-circle color__pink"></i>
+                      <p>BY <p class="color__pink" >JOHNE DOE</p></p>
+                      <i class="fa fa-comment-alt color__pink "></i>
+                      <p>COMMENT 15</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="item__container">
+                <div class="item__img">
+                  <img src="./img/pic3.jpg" alt="">
+                  <div class="item__img-calendar">
+                    <p>25 MARCH 2021</p>
+                  </div>
+                </div>
+                <div class="item__content">
+                  <h3>Lorem ipsum dolor sit.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, incidunt? Architecto, incidunt?</p>
+                  <hr>
+                  <div class="item__content-footer">
+                      <i class="fa fa-user-circle color__pink"></i>
+                      <p>BY <p class="color__pink" >JOHNE DOE</p></p>
+                      <i class="fa fa-comment-alt color__pink "></i>
+                      <p>COMMENT 15</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="item__container">
+                <div class="item__img">
+                  <img src="./img/pic1_1.jpg" alt="">
+                  <div class="item__img-calendar">
+                    <p>25 MARCH 2021</p>
+                  </div>
+                </div>
+                <div class="item__content">
+                  <h3>Lorem ipsum dolor sit.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, incidunt? Architecto, incidunt?</p>
+                  <hr>
+                  <div class="item__content-footer">
+                      <i class="fa fa-user-circle color__pink"></i>
+                      <p>BY <p class="color__pink" >JOHNE DOE</p></p>
+                      <i class="fa fa-comment-alt color__pink "></i>
+                      <p>COMMENT 15</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog__logo">
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light3.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink3.png" alt="">
+            </div>
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light4.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink4.png" alt="">
+            </div>
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light5.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink5.png" alt="">
+            </div>
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light6.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink6.png" alt="">
+            </div>
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light1.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink1.png" alt="">
+            </div>
+            <div class="blog__logo-item">
+              <img class="logo-light" src="./img/logo-light2.png" alt="">
+              <img class="logo-pink" src="./img/logo-pink2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <img id="top__footer" src="./img/pattern2.png" alt="">
+        <div class="Subcribe ">
+          <div class="subcribe__content">
+            <div class="subcribe__left">
+              <h3>Subscribe To Our Newsletter
+              </h3>
+            </div>
+            <div class="subcribe__right">
+              <form action="">
+                <input class="subcribe__input" type="text" placeholder="Your Email Address">
+                <button class="btn__samar" >
+                  <i class="fa fa-play"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      <div class="footer__content center">
+        <div class="footer__item">
+          <div class="footer__item-img">
+            <img src="./img/logo-white.png"  alt="">
+          </div>
+          <div class="footer__item-list">
+            <div class="list__item">
+              <div class="list__item-icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="list__item-list">
+                <ul style="list-style: none;" >
+                  <li>1800-123-4567
+                  </li>
+                  <li>+91 987-654-3210
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list__item">
+              <div class="list__item-icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="list__item-list">
+                <ul style="list-style: none;" >
+                  <li>info@example.com
+                  </li>
+                  <li>services@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list__item">
+              <div class="list__item-icon">
+                <i class="fa fa-map-marker-alt"></i>
+              </div>
+              <div class="list__item-list">
+                <ul style="list-style: none;" >
+                  <li>Demo Address #8901 Marmora Road Chi Minh City, Vietnam
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-header">
+            <h2>Our links</h2>
+          </div>
+          <div class="footer__item-nav">
+            <ul style="list-style: none;" >
+              <li><i class="fa fa-angle-right"></i> Home</li>
+              <li><i class="fa fa-angle-right"></i> About Us</li>
+              <li><i class="fa fa-angle-right"></i> Services</li>
+              <li><i class="fa fa-angle-right"></i> Team</li>
+              <li><i class="fa fa-angle-right"></i> Blog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-header">
+            <h2>Our Services
+            </h2>
+          </div>
+          <div class="footer__item-nav">
+            <ul style="list-style: none;" >
+              <li><i class="fa fa-angle-right"></i> Strategy & Research</li>
+              <li><i class="fa fa-angle-right"></i> Web Development</li>
+              <li><i class="fa fa-angle-right"></i> Web Solution</li>
+              <li><i class="fa fa-angle-right"></i> Digital Marketing</li>
+              <li><i class="fa fa-angle-right"></i> App Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-header">
+            <h2>Other links
+            </h2>
+          </div>
+          <div class="footer__item-nav">
+            <ul style="list-style: none;" >
+              <li><i class="fa fa-angle-right"></i> FAQ</li>
+              <li><i class="fa fa-angle-right"></i> Portfolio</li>
+              <li><i class="fa fa-angle-right"></i> Privacy Policy</li>
+              <li><i class="fa fa-angle-right"></i> Terms & Conditions</li>
+              <li><i class="fa fa-angle-right"></i> Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom ">
+        <div class="footer__bottom-content center">
+          <div class="bottom__left">
+            <p>Copyright <i class="fa fa-copyright"></i> 2021 <a style="color: #f55f8d;cursor: pointer;" >DexignZone</a>. All right reserved. </p>
+          </div>
+          <div class="bottom__right">
+            <div class="bottom__right-icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="bottom__right-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="bottom__right-icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
-
+    <div id="back">
+      <a href="#" class=" cd-top text-replace js-cd-top">
+    </div>
+    </a>
     <!-- header scroll -->
     <script>
       window.onscroll = function () {
@@ -641,31 +877,31 @@
           document.body.scrollTop > 80 ||
           document.documentElement.scrollTop > 80
         ) {
-          document.getElementById("header").style.padding = "12px 0px";
+          document.getElementById("home").style.padding = "12px 0px";
         } else {
-          document.getElementById("header").style.padding = "36px 0px";
+          document.getElementById("home").style.padding = "36px 0px";
         }
       }
       </script>
-
     <script src="./numscroller-gh-pages/lib/jquery-1.10.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js" integrity="sha512-f/gxy4xAjuGEIf/ujexcNI906CTS+kfw40QCyG/rEMKELvCIFaTOY+dfdn7M/eNsiMreG3SStjgFr9q8Me9Baw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'>
-    </script>
-    <script src='https://samar.dexignzone.com/xhtml/vendor/swiper/js/swiper.min.js'>
-    </script>
-    <script  src="./js/testimonial.js"></script> -->
-
-    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
     <script src="./numscroller-gh-pages/numscroller-1.0.js"></script>
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
     <script src='https://samar.dexignzone.com/xhtml/vendor/swiper/js/swiper.min.js'></script>
     <script src="./js/testimonial.js" ></script>
-
-
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.blog__carousel').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay:true,
+        autoplaySpeed: 2000,
+      });
+    </script>
+    <script src="./back-to-top-master/assets/js/util.js"></script>
+    <script src="./back-to-top-master/assets/js/main.js"></script>
   </body>
 </html>
